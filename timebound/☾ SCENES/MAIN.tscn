@@ -1,9 +1,9 @@
 [gd_scene load_steps=8 format=3 uid="uid://cn36j1h30o8lo"]
 
-[ext_resource type="FontFile" uid="uid://3elh0jygk5q2" path="res://☾ FILES/norwester.otf" id="1_rf5wo"]
-[ext_resource type="FontFile" uid="uid://d1pnw1hsxevbb" path="res://☾ FILES/Recursive-Medium.ttf" id="2_ao1bj"]
-[ext_resource type="FontFile" uid="uid://b1rr8kx32kopq" path="res://☾ FILES/Recursive-Light.ttf" id="3_tm5h3"]
-[ext_resource type="FontFile" uid="uid://c2a6qhgo4juiv" path="res://☾ FILES/Recursive_Monospace-Light.ttf" id="4_kgeht"]
+[ext_resource type="FontFile" uid="uid://3elh0jygk5q2" path="res://☾ FILES/norwester.otf" id="1_2x5gq"]
+[ext_resource type="FontFile" uid="uid://d1pnw1hsxevbb" path="res://☾ FILES/Recursive-Medium.ttf" id="2_3bxaf"]
+[ext_resource type="FontFile" uid="uid://b1rr8kx32kopq" path="res://☾ FILES/Recursive-Light.ttf" id="3_rv25b"]
+[ext_resource type="FontFile" uid="uid://c2a6qhgo4juiv" path="res://☾ FILES/Recursive_Monospace-Light.ttf" id="4_6vc1v"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_iyt76"]
 
@@ -67,7 +67,7 @@ text = "(-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.)"
 custom_minimum_size = Vector2(300, 70)
 layout_mode = 2
 size_flags_horizontal = 3
-theme_override_fonts/normal_font = ExtResource("1_rf5wo")
+theme_override_fonts/normal_font = ExtResource("1_2x5gq")
 theme_override_font_sizes/normal_font_size = 27
 text = "TIMEBOUND / $gamechapter"
 vertical_alignment = 1
@@ -86,14 +86,14 @@ size_flags_horizontal = 3
 [node name="Label" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer/ScrollContainer/ContentContainer"]
 layout_mode = 2
 size_flags_vertical = 3
-theme_override_fonts/font = ExtResource("2_ao1bj")
+theme_override_fonts/font = ExtResource("2_3bxaf")
 theme_override_font_sizes/font_size = 20
 text = "header thehsdhsjdhsjhd TITLE"
 
 [node name="RichTextLabel" type="RichTextLabel" parent="PanelContainer/MarginContainer/VBoxContainer/ScrollContainer/ContentContainer"]
 layout_mode = 2
 size_flags_vertical = 3
-theme_override_fonts/normal_font = ExtResource("3_tm5h3")
+theme_override_fonts/normal_font = ExtResource("3_rv25b")
 theme_override_font_sizes/normal_font_size = 20
 theme_override_font_sizes/bold_font_size = 20
 theme_override_font_sizes/bold_italics_font_size = 20
@@ -105,6 +105,19 @@ ds
 ds
 dsd
 s
+jj
+j
+j
+j
+j
+jj
+j
+j
+j
+j
+j
+j
+jjj
 s"
 fit_content = true
 scroll_active = false
@@ -138,7 +151,7 @@ theme_override_constants/margin_bottom = 20
 
 [node name="Label" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer/ScrollContainer/ContentContainer/MarginContainer/VBoxContainer/ChoiceContainer/MarginContainer"]
 layout_mode = 2
-theme_override_fonts/font = ExtResource("4_kgeht")
+theme_override_fonts/font = ExtResource("4_6vc1v")
 theme_override_font_sizes/font_size = 20
 text = "choice textnj"
 
@@ -150,6 +163,6 @@ layout_mode = 2
 
 [node name="Button" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer2"]
 layout_mode = 2
-theme_override_fonts/font = ExtResource("1_rf5wo")
+theme_override_fonts/font = ExtResource("1_2x5gq")
 theme_override_styles/normal = SubResource("StyleBoxFlat_5nrqa")
 text = "placeholder button"

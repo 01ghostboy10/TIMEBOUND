@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="TIMEBOUND"
+run/main_scene="uid://cn36j1h30o8lo"
 config/features=PackedStringArray("4.5", "GL Compatibility")
 config/icon="res://icon.svg"
 
@@ -25,8 +26,8 @@ enabled=PackedStringArray("res://addons/godot_super-wakatime/plugin.cfg")
 [file_customization]
 
 folder_colors={
-"res://☾ ART/": "red",
 "res://☾ FILES/": "red",
+"res://☾ FILES/☾ ART/": "red",
 "res://☾ SCENES/": "red",
 "res://☾ SCRIPTS/": "red"
 }
