@@ -62,6 +62,7 @@ layout_mode = 2
 [node name="Button" type="MenuButton" parent="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer"]
 layout_mode = 2
 text = "(-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.)"
+icon_alignment = 1
 
 [node name="Label" type="RichTextLabel" parent="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer"]
 custom_minimum_size = Vector2(300, 70)
