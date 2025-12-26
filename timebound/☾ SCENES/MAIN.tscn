@@ -1,6 +1,7 @@
-[gd_scene load_steps=8 format=3 uid="uid://cn36j1h30o8lo"]
+[gd_scene load_steps=9 format=3 uid="uid://cn36j1h30o8lo"]
 
 [ext_resource type="FontFile" uid="uid://3elh0jygk5q2" path="res://☾ FILES/norwester.otf" id="1_2x5gq"]
+[ext_resource type="Script" uid="uid://cg1a70ivlq2t7" path="res://☾ SCENES/main.gd" id="1_3bxaf"]
 [ext_resource type="FontFile" uid="uid://d1pnw1hsxevbb" path="res://☾ FILES/Recursive-Medium.ttf" id="2_3bxaf"]
 [ext_resource type="FontFile" uid="uid://b1rr8kx32kopq" path="res://☾ FILES/Recursive-Light.ttf" id="3_rv25b"]
 [ext_resource type="FontFile" uid="uid://c2a6qhgo4juiv" path="res://☾ FILES/Recursive_Monospace-Light.ttf" id="4_6vc1v"]
@@ -21,6 +22,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
+script = ExtResource("1_3bxaf")
 
 [node name="ColorRect" type="ColorRect" parent="."]
 layout_mode = 1
@@ -91,7 +93,7 @@ theme_override_fonts/font = ExtResource("2_3bxaf")
 theme_override_font_sizes/font_size = 20
 text = "header thehsdhsjdhsjhd TITLE"
 
-[node name="RichTextLabel" type="RichTextLabel" parent="PanelContainer/MarginContainer/VBoxContainer/ScrollContainer/ContentContainer"]
+[node name="content" type="RichTextLabel" parent="PanelContainer/MarginContainer/VBoxContainer/ScrollContainer/ContentContainer"]
 layout_mode = 2
 size_flags_vertical = 3
 theme_override_fonts/normal_font = ExtResource("3_rv25b")
